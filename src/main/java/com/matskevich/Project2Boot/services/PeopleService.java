@@ -1,8 +1,9 @@
 package com.matskevich.Project2Boot.services;
 
-import com.matskevich.springcourse.models.Book;
-import com.matskevich.springcourse.models.Person;
-import com.matskevich.springcourse.repositories.PeopleRepository;
+
+import com.matskevich.Project2Boot.models.Book;
+import com.matskevich.Project2Boot.models.Person;
+import com.matskevich.Project2Boot.repositories.PeopleRepository;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

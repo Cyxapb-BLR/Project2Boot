@@ -1,9 +1,10 @@
 package com.matskevich.Project2Boot.controllers;
 
-import com.matskevich.springcourse.models.Book;
-import com.matskevich.springcourse.models.Person;
-import com.matskevich.springcourse.services.BooksService;
-import com.matskevich.springcourse.services.PeopleService;
+import com.matskevich.Project2Boot.models.Book;
+import com.matskevich.Project2Boot.models.Person;
+import com.matskevich.Project2Boot.services.BooksService;
+import com.matskevich.Project2Boot.services.PeopleService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.Optional;
+
 
 @Controller
 @RequestMapping("/books")

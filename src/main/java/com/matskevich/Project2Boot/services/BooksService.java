@@ -1,8 +1,9 @@
 package com.matskevich.Project2Boot.services;
 
-import com.matskevich.springcourse.models.Book;
-import com.matskevich.springcourse.models.Person;
-import com.matskevich.springcourse.repositories.BookRepository;
+
+import com.matskevich.Project2Boot.models.Book;
+import com.matskevich.Project2Boot.models.Person;
+import com.matskevich.Project2Boot.repositories.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -12,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
+
 
 @Service
 @Transactional(readOnly = true)

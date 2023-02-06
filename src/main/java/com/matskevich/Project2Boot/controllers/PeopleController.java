@@ -1,7 +1,8 @@
 package com.matskevich.Project2Boot.controllers;
 
-import com.matskevich.springcourse.models.Person;
-import com.matskevich.springcourse.services.PeopleService;
+
+import com.matskevich.Project2Boot.models.Person;
+import com.matskevich.Project2Boot.services.PeopleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,6 +10,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+
 
 @Controller
 @RequestMapping("/people")

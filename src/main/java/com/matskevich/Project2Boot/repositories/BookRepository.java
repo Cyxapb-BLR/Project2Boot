@@ -1,6 +1,7 @@
 package com.matskevich.Project2Boot.repositories;
 
-import com.matskevich.springcourse.models.Book;
+
+import com.matskevich.Project2Boot.models.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
